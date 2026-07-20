@@ -13,8 +13,18 @@ authors:
 version: "1.0"
 date-released: "2026-07-20"
 license: CC-BY-NC-ND-4.0
+doi: 10.5281/zenodo.21453137
 url: "https://nugalaxy.ai/guides/how-do-you-know-your-ai-agent-actually-works"
 repository-code: "https://github.com/nugalaxy/harness-engineering-guides"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21453137
+    description: >-
+      Concept DOI. Always resolves to the latest version of this guide. Use this
+      one when citing the work in general.
+  - type: doi
+    value: 10.5281/zenodo.21453138
+    description: Version DOI for the 1.0 release specifically.
 keywords:
   - AI agents
   - agent evaluation
@@ -30,4 +40,5 @@ preferred-citation:
       given-names: Sara
   year: 2026
   edition: "1.0"
+  doi: 10.5281/zenodo.21453137
   url: "https://nugalaxy.ai/guides/how-do-you-know-your-ai-agent-actually-works"

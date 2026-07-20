@@ -1,5 +1,8 @@
 # Harness Engineering Series
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21453137.svg)](https://doi.org/10.5281/zenodo.21453137)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 Free short books about the engineering problems that show up after the demo works.
 
 Every guide follows one person through one real mess. No lectures, no jargon wall, no
@@ -56,8 +59,20 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for what helps most.
 
 ## Citing this
 
-The guide is citable, and `CITATION.cff` has the details. GitHub's "Cite this repository" button
-in the sidebar will format it for you.
+The guide is archived on Zenodo and has a DOI, so it can be cited in a paper, a thesis, or a
+reading list like any other book.
+
+**DOI: [10.5281/zenodo.21453137](https://doi.org/10.5281/zenodo.21453137)**
+
+That is the concept DOI: it always resolves to the newest version, so a citation written today
+still points somewhere sensible after guide 001 gets a second edition. If you need to pin the
+exact 1.0 release instead, use [10.5281/zenodo.21453138](https://doi.org/10.5281/zenodo.21453138).
+
+> Mohseni, S. (2026). *How Do You Know Your AI Agent Actually Works?* (Version 1.0).
+> Zenodo. https://doi.org/10.5281/zenodo.21453137
+
+GitHub's "Cite this repository" button in the sidebar will format it in other styles, and
+`CITATION.cff` has the machine-readable version.
 
 ## License
 
