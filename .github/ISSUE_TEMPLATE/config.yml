@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the guide online
+    url: https://nugalaxy.ai/guides/how-do-you-know-your-ai-agent-actually-works
+    about: The full text, plus the PDF. Free, no email required.
+  - name: More writing
+    url: https://nugalaxy.ai/blog
+    about: Shorter posts on the same problems.
+  - name: Say hello
+    url: https://nugalaxy.ai/contact
+    about: For anything that is not about the guide itself.

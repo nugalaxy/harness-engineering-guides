@@ -1,0 +1,36 @@
+name: Something is wrong
+description: A factual error, broken reasoning, or a claim that does not hold up
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Corrections are the most useful thing anyone sends, and they make the next
+        version better. Blunt is fine.
+
+  - type: input
+    id: location
+    attributes:
+      label: Where
+      description: Guide, part, and roughly where. A quoted sentence is perfect.
+      placeholder: Guide 001, Part V, the paragraph about compounding step errors
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: What the guide says, and what you believe is actually true.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: How do you know
+      description: >
+        Optional but very welcome. A link, a paper, or "I ran this in production for two years
+        and here is what actually happened" all count. Experience is evidence.
+    validations:
+      required: false

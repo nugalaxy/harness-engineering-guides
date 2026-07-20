@@ -1,0 +1,42 @@
+name: This part lost me
+description: A section that did not make sense, or that you had to re-read
+labels: ["clarity"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If a passage did not land, that is a defect in the writing, not in you. Knowing which
+        paragraph is genuinely valuable and almost nobody reports it, so thank you.
+
+  - type: input
+    id: location
+    attributes:
+      label: Where did you get lost
+      description: Part and chapter is enough. A quoted sentence is better.
+      placeholder: Guide 001, Part III, "Right Answer, Wrong Path"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What was confusing
+      description: >
+        Anything is useful here. "I could not tell what the taxi was standing in for",
+        "two ideas arrived at once", "I did not know this term". No need to be polite about it.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Closest description
+      options:
+        - I did not understand the concept
+        - I understood it but not why it matters
+        - The example did not fit the point
+        - Too much happened in one paragraph
+        - Assumed knowledge I do not have
+        - Something else
+    validations:
+      required: false

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" font-family="'Segoe Print', cursive" font-size="17" fill="#111">
+  <!-- The loop, grown up: production feeds the set -->
+  <g stroke="#111" stroke-width="3" fill="none" stroke-linecap="round">
+    <!-- production cloud -->
+    <path d="M60 30 q-25 5 -20 25 q-15 15 5 25 q0 18 25 15 q10 15 35 8 q25 10 35 -8 q22 5 25 -18 q15 -12 0 -25 q3 -20 -22 -22 q-10 -14 -35 -8 q-25 -10 -48 8" transform="translate(20 0)"/>
+    <!-- dashed feed arrow -->
+    <path d="M115 105 q-15 35 -15 55" stroke-dasharray="7 7"/>
+    <path d="M94 152 l6 12 l10 -9"/>
+    <rect x="20"  y="170" width="150" height="70" rx="10" transform="rotate(-1 95 205)"/>
+    <rect x="205" y="170" width="150" height="70" rx="10" transform="rotate(0.8 280 205)"/>
+    <rect x="390" y="170" width="150" height="70" rx="10" transform="rotate(-0.7 465 205)"/>
+    <rect x="575" y="170" width="130" height="70" rx="10" transform="rotate(1 640 205)"/>
+    <path d="M172 205 q15 -6 30 0"/><path d="M196 199 l8 6 l-9 5"/>
+    <path d="M357 205 q15 6 30 0"/><path d="M381 201 l8 4 l-9 6"/>
+    <path d="M542 205 q15 -5 30 0"/><path d="M566 199 l8 6 l-9 5"/>
+    <path d="M640 243 q10 85 -175 88 q-270 5 -270 -75"/>
+    <path d="M188 268 l7 -12 l6 13"/>
+  </g>
+  <text x="130" y="60" text-anchor="middle">production</text>
+  <text x="245" y="115" font-size="15">new surprises join the set, forever</text>
+  <text x="95"  y="198" text-anchor="middle">1. Collect</text>
+  <text x="95"  y="222" text-anchor="middle">real inputs</text>
+  <text x="280" y="198" text-anchor="middle">2. Run the</text>
+  <text x="280" y="222" text-anchor="middle">agent on all</text>
+  <text x="465" y="198" text-anchor="middle">3. Judge every</text>
+  <text x="465" y="222" text-anchor="middle">output</text>
+  <text x="640" y="198" text-anchor="middle">4. Score, find</text>
+  <text x="640" y="222" text-anchor="middle">the pattern</text>
+  <text x="420" y="360" text-anchor="middle" font-size="16">fix something, run it again</text>
+</svg>

@@ -1,0 +1,37 @@
+name: Suggest a topic
+description: What should a future guide in this series be about?
+labels: ["topic-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The series exists to answer questions people actually have. The honest way to find those
+        is to be told, so this is a real input and not a suggestion box that nobody reads.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What is the question
+      description: >
+        Phrase it as the question you would type at 2am with something broken, not as a topic
+        title. "How do I know if my eval set is lying to me?" beats "evaluation datasets".
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it hard right now
+      description: >
+        What did you try, and where did the existing writing on it fall short? Vague, outdated,
+        assumes a research background, only covers the happy path, and so on.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: firsthand
+    attributes:
+      label: Have you hit this yourself?
+      options:
+        - label: Yes, this cost me real time or real money
+          required: false

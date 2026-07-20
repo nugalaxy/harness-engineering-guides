@@ -1,0 +1,17 @@
+# The manuscript is authored on Windows and read everywhere. Normalize to LF in
+# the repository so diffs stay clean and quotes do not shift between machines.
+* text=auto eol=lf
+
+*.md   text eol=lf
+*.cff  text eol=lf
+*.svg  text eol=lf
+
+# Never let git touch these.
+*.pdf  binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+
+# Keep the manuscript out of GitHub's language statistics; this is a book, not a
+# codebase, and the bar should say Markdown, not SVG.
+*.svg linguist-detectable=false

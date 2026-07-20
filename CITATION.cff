@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you reference this guide, please cite it as below."
+title: "How Do You Know Your AI Agent Actually Works?"
+abstract: >-
+  A free short book on AI agent evaluation. It follows one developer from a
+  production failure that 340 passing tests could not predict, through building
+  an evaluation set, writing rubrics, choosing between code judges, human judges
+  and AI judges, and finally running an agent in production where the evaluation
+  set is grown by production itself. Part of the Harness Engineering Series.
+authors:
+  - family-names: Mohseni
+    given-names: Sara
+version: "1.0"
+date-released: "2026-07-20"
+license: CC-BY-NC-ND-4.0
+url: "https://nugalaxy.ai/guides/how-do-you-know-your-ai-agent-actually-works"
+repository-code: "https://github.com/nugalaxy/harness-engineering-guides"
+keywords:
+  - AI agents
+  - agent evaluation
+  - LLM evaluation
+  - harness engineering
+  - software testing
+  - non-determinism
+preferred-citation:
+  type: book
+  title: "How Do You Know Your AI Agent Actually Works?"
+  authors:
+    - family-names: Mohseni
+      given-names: Sara
+  year: 2026
+  edition: "1.0"
+  url: "https://nugalaxy.ai/guides/how-do-you-know-your-ai-agent-actually-works"

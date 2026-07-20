@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="'Segoe Print', cursive" font-size="17" fill="#111">
+  <!-- The Evaluation Loop: four steps and the arrow back -->
+  <g stroke="#111" stroke-width="3" fill="none" stroke-linecap="round">
+    <rect x="20"  y="60" width="150" height="70" rx="10" transform="rotate(-1 95 95)"/>
+    <rect x="205" y="60" width="150" height="70" rx="10" transform="rotate(0.8 280 95)"/>
+    <rect x="390" y="60" width="150" height="70" rx="10" transform="rotate(-0.7 465 95)"/>
+    <rect x="575" y="60" width="130" height="70" rx="10" transform="rotate(1 640 95)"/>
+    <!-- forward arrows -->
+    <path d="M172 95 q15 -6 30 0"/><path d="M196 89 l8 6 l-9 5"/>
+    <path d="M357 95 q15 6 30 0"/><path d="M381 91 l8 4 l-9 6"/>
+    <path d="M542 95 q15 -5 30 0"/><path d="M566 89 l8 6 l-9 5"/>
+    <!-- loop back -->
+    <path d="M640 133 q10 85 -175 88 q-270 5 -270 -75" stroke-dasharray="none"/>
+    <path d="M188 158 l7 -12 l6 13"/>
+  </g>
+  <text x="95"  y="88" text-anchor="middle">1. Collect</text>
+  <text x="95"  y="112" text-anchor="middle">real inputs</text>
+  <text x="280" y="88" text-anchor="middle">2. Run the</text>
+  <text x="280" y="112" text-anchor="middle">agent on all</text>
+  <text x="465" y="88" text-anchor="middle">3. Judge every</text>
+  <text x="465" y="112" text-anchor="middle">output</text>
+  <text x="640" y="88" text-anchor="middle">4. Score, find</text>
+  <text x="640" y="112" text-anchor="middle">the pattern</text>
+  <text x="420" y="250" text-anchor="middle" font-size="16">fix something, run it again</text>
+</svg>
