@@ -81,11 +81,25 @@ The text and comics are released under
 send it to your team, use it to teach. Do not sell it or publish an altered version under your
 own name. Want to translate it or excerpt it somewhere? Open an issue, the answer is usually yes.
 
+## The tool behind the guides
+
+The same people who write these guides build developer tools that run on your machine. No GPU,
+no cloud account, no vendor lock-in.
+
+**[dugalaxy](https://github.com/nugalaxy/dugalaxy)** fills an empty database with realistic,
+reproducible test data. You describe your data in a sentence and get back a template you can run
+again, share with your team, and commit next to your code. Same template, same data, every time.
+
+```bash
+pip install dugalaxy
+```
+
 ## Who made this
 
 Written by Sara Mohseni, who has been a developer, a product designer, and a product manager,
 and is self taught all the way. That is why these guides teach the way she learned best: a real
 problem, a real mess, and someone in the middle figuring it out. Poor James.
 
-Built by [nugalaxy](https://github.com/nugalaxy). More writing at
+Built by [nugalaxy](https://github.com/nugalaxy), where the tools are: try
+[dugalaxy](https://github.com/nugalaxy/dugalaxy). More writing at
 [nugalaxy.ai/blog](https://nugalaxy.ai/blog).
