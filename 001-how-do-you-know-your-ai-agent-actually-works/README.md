@@ -2,6 +2,12 @@
 
 Harness Engineering Series #1 · Version 1.0 · Sara Mohseni
 
+<p align="center">
+  <a href="how-do-you-know-your-ai-agent-actually-works.pdf">
+    <img src="assets/cover.jpg" alt="A developer inspects a robot holding an ALL TESTS PASSED sign with a magnifying glass, fire extinguisher in hand" width="640">
+  </a>
+</p>
+
 **[Download the PDF](how-do-you-know-your-ai-agent-actually-works.pdf)** (recommended: it has the comics in place and the
 layout the text was written for).
 

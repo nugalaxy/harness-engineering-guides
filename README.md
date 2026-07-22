@@ -3,7 +3,10 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21453137.svg)](https://doi.org/10.5281/zenodo.21453137)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-Free short books about the engineering problems that show up after the demo works.
+AI engineering has matured quickly, but practical engineering knowledge is still scattered across
+conference talks, blog posts, GitHub issues, and production incidents. This series brings those
+lessons together through short, story-driven guides that focus on the problems engineers actually
+face after deployment.
 
 Every guide follows one person through one real mess. No lectures, no jargon wall, no
 prerequisites beyond knowing what a test is. If a comparison explains something better than a
@@ -12,6 +15,12 @@ definition, you get the comparison.
 ---
 
 ## Guide 001: How Do You Know Your AI Agent Actually Works?
+
+<p align="center">
+  <a href="001-how-do-you-know-your-ai-agent-actually-works/how-do-you-know-your-ai-agent-actually-works.pdf">
+    <img src="001-how-do-you-know-your-ai-agent-actually-works/assets/cover.jpg" alt="A developer inspects a robot holding an ALL TESTS PASSED sign with a magnifying glass, fire extinguisher in hand" width="640">
+  </a>
+</p>
 
 > Friday, 5:47 PM. James presses deploy and goes home. He has spent three weeks building a
 > support agent. He wrote 340 tests for it. Every one passed.
@@ -83,12 +92,11 @@ own name. Want to translate it or excerpt it somewhere? Open an issue, the answe
 
 ## The tool behind the guides
 
-The same people who write these guides build developer tools that run on your machine. No GPU,
-no cloud account, no vendor lock-in.
-
-**[dugalaxy](https://github.com/nugalaxy/dugalaxy)** fills an empty database with realistic,
-reproducible test data. You describe your data in a sentence and get back a template you can run
-again, share with your team, and commit next to your code. Same template, same data, every time.
+The tools behind these guides are built at [nugalaxy](https://github.com/nugalaxy). One of them is
+**[dugalaxy](https://github.com/nugalaxy/dugalaxy)**, an open-source CLI that fills an empty
+database with realistic, reproducible test data. You describe your data in a sentence and get back
+a template you can run again, share with your team, and commit next to your code. Same template,
+same data, every time, and it runs on your machine with no cloud account.
 
 ```bash
 pip install dugalaxy
