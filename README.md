@@ -17,7 +17,7 @@ definition, you get the comparison.
 ## Guide 001: How Do You Know Your AI Agent Actually Works?
 
 <p align="center">
-  <a href="001-how-do-you-know-your-ai-agent-actually-works/how-do-you-know-your-ai-agent-actually-works.pdf">
+  <a href="https://nugalaxy.ai/guides/how-do-you-know-your-ai-agent-actually-works">
     <img src="001-how-do-you-know-your-ai-agent-actually-works/assets/cover.jpg" alt="A developer inspects a robot holding an ALL TESTS PASSED sign with a magnifying glass, fire extinguisher in hand" width="640">
   </a>
 </p>
@@ -31,8 +31,8 @@ James's tests all passed because he wrote the test inputs himself. Real customer
 they text a friend. This guide is the three months he spent learning how to know his agent works
 before production tells him it does not.
 
-**[Download the PDF](001-how-do-you-know-your-ai-agent-actually-works/how-do-you-know-your-ai-agent-actually-works.pdf)**
-or read it [chapter by chapter](001-how-do-you-know-your-ai-agent-actually-works/).
+**[Get the PDF](https://nugalaxy.ai/guides/how-do-you-know-your-ai-agent-actually-works)** on
+nugalaxy.ai, or read it here [chapter by chapter](001-how-do-you-know-your-ai-agent-actually-works/).
 
 **What you get:**
 
@@ -51,9 +51,11 @@ wrong. Or if you have not shipped one yet and would like to skip James's Monday.
 
 ## Reading online vs the PDF
 
-The markdown files are the same text as the PDF. The PDF has the layout, the comics in place,
-and the cover, so it is the better read. The markdown is here so the guide is searchable,
-linkable, quotable, and open to corrections.
+The markdown files here are the same text as the PDF. The PDF has the layout, the comics in place,
+and the cover, so it is the better read. It lives on
+[nugalaxy.ai](https://nugalaxy.ai/guides/how-do-you-know-your-ai-agent-actually-works) and asks for
+an email address first. The markdown is here so the guide is searchable, linkable, quotable, and
+open to corrections, and it asks you for nothing.
 
 ## Found a mistake? Disagree with something?
 

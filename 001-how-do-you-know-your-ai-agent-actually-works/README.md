@@ -3,13 +3,15 @@
 Harness Engineering Series #1 · Version 1.0 · Sara Mohseni
 
 <p align="center">
-  <a href="how-do-you-know-your-ai-agent-actually-works.pdf">
+  <a href="https://nugalaxy.ai/guides/how-do-you-know-your-ai-agent-actually-works">
     <img src="assets/cover.jpg" alt="A developer inspects a robot holding an ALL TESTS PASSED sign with a magnifying glass, fire extinguisher in hand" width="640">
   </a>
 </p>
 
-**[Download the PDF](how-do-you-know-your-ai-agent-actually-works.pdf)** (recommended: it has the comics in place and the
-layout the text was written for).
+The whole guide is below, chapter by chapter. The PDF has the comics in place and the layout the
+text was written for, and it lives on
+**[nugalaxy.ai](https://nugalaxy.ai/guides/how-do-you-know-your-ai-agent-actually-works)**, where it
+asks for an email address.
 
 ---
 
